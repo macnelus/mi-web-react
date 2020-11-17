@@ -1,0 +1,16 @@
+   body {
+    font: 16px/1 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    background: url(../img/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #212121;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }

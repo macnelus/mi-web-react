@@ -1,0 +1,48 @@
+
+#blog {
+
+  width: 60%;
+  margin: 0 auto;
+
+  h2 {
+    bottom: initial;
+    top: 8%;
+    font-size:4rem;
+  }
+
+  section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:12%;
+
+    article {
+      padding: 5%;
+      padding-top:10%;
+
+      h3{
+        font-size:2.4rem;
+      }
+
+      p {
+      margin-top: 2.5%;
+      line-height: 1.8rem;
+      }
+    }
+  }
+
+  .post-item {
+    width: 60%;
+    margin: 0 auto;
+    
+    p, a, h3 {
+      margin:3%;
+      line-height: 1.8rem;
+    }
+    
+    h3 {
+      font-size:2.4rem;
+    }
+  }
+
+}

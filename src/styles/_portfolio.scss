@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+h2 {
+  position: absolute;
+  bottom:10%;
+  left: 42%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  color: #333;
+
+  }
+
+#menu-portfolio {
+
+  display: flex;
+  align-items: center;
+  height: 42vw;
+  justify-content: center;
+  padding: 2rem;
+
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    width: 50%;
+  }
+
+  .card{
+    position: relative;
+  }
+
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: 32px;
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+  }
+
+  .card:hover .card__background{
+    transform: scale(1.10) translateZ(0);
+    box-shadow: 0px 0px 30px #000;
+  }
+
+  .card:hover .card__heading{
+    transform: scale(1.10) translateZ(0);
+  }
+
+  .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(5px);
+  }
+
+  .card-grid:hover > .card:not(:hover) .card__heading{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(1px);
+  }
+    
+  .card__content{
+    left: 0;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+  }
+
+  .card__heading{
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    
+  }
+  
+}
+

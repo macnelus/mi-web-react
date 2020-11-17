@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+#bio {
+  display:flex;
+
+  img {
+    border-radius: 50px;
+    margin: 10% 60%;
+    box-shadow: 1px 5px 15px #333;
+    max-width: auto;
+    height: 65%;
+    position: relative;
+    top:10%;
+    
+  }
+
+  .photo-bio {
+    width: 10%;
+     flex: 1;
+     align-items: right;
+     
+  }
+  .title-bio { 
+
+    h2 {
+    font-family: 'Rock Salt', cursive;
+    color: #333;
+    padding-bottom: 2rem;
+    margin-left: 43%;
+    position: relative;
+    top:-15%;
+    left:-7%;
+    transform: rotate(335deg);
+    font-size: 3.8rem;
+    text-shadow: 0 0 .2rem #000;
+
+  }
+    margin-right:5rem;
+    padding-left: 1rem;
+    padding-top: 3.8rem;
+    width: 50%;
+    flex: 1;
+  }
+    .text-bio {
+    max-width: 30%;
+    margin-left:2%;
+    line-height: 1.5;
+    position: relative;
+    top:6%;
+    }
+}

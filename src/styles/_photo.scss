@@ -1,0 +1,39 @@
+#photo {
+  padding: 4rem;
+  margin-top: 5%;
+
+.photo-title{
+    position: absolute;
+    top:10%;
+    font-size:3rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.4rem;
+    margin-left:30%;
+    margin-right:30%;
+
+  
+  .photo-card { 
+    background-color: #eee;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 12px #555;
+    transition: all .2s;
+    display: flex;
+    padding-bottom: 5rem;
+    justify-content: center;
+    
+    &:hover {
+      box-shadow: 0 0 4px #999 inset;
+    }
+  
+    div {
+      margin-top: 1rem;
+      width: 20rem;
+        }
+      }
+    }
+  }

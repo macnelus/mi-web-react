@@ -1,0 +1,44 @@
+#video {
+  padding: 4rem;
+  margin-top: 10%;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-row: 1;
+    // grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    
+    gap: 2.4rem;
+  
+  article { 
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 0 12px #555;
+    transition: all .2s;
+    
+    &:hover {
+      box-shadow: 0 0 4px #999 inset;
+    }
+  
+    div {
+      margin-top: 1rem;
+      width: 424px;
+      h3,p {
+        color: #eee; 
+        margin-bottom: 1rem; 
+      }
+      p {
+        line-height: 1.7rem; 
+      }
+
+      h3 {
+ 
+        line-height: 1.5rem;
+
+      }
+    }
+  }
+    
+  }
+}
