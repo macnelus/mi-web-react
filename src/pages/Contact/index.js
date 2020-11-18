@@ -44,7 +44,12 @@ const Contact = () => {
             <label for="box">Message</label>
           </fieldset>
           <fieldset>
-            <a href="#" className="btn" id="send">
+            <a
+              href="http://www.google.com"
+              className="btn"
+              id="send"
+              target="_blank"
+            >
               Send
             </a>
           </fieldset>
@@ -52,25 +57,25 @@ const Contact = () => {
         <div>
           <div>
             <a href="http://www.facebook.com/marianocuestafoto">
-              <img src={Facebook} width="10%" height="100" />
+              <img src={Facebook} alt="" width="10%" height="100" />
               <span>Facebook</span>
             </a>
           </div>
           <div>
             <a href="http://www.twitter.com/macnelus">
-              <img src={Twitter} width="10%" height="100" />
+              <img src={Twitter} alt="" width="10%" height="100" />
               <span>Twitter</span>
             </a>
           </div>
           <div>
             <a href="http://www.instagram.com/marianocuestafoto">
-              <img src={Instagram} width="10%" height="100" />
+              <img src={Instagram} alt="" width="10%" height="100" />
               <span>Instagram</span>
             </a>
           </div>
           <div>
             <a href="http://www.t.me/macnelus">
-              <img src={Telegram} width="10%" height="100" />
+              <img src={Telegram} alt="" width="10%" height="100" />
               <span>Telegram</span>
             </a>
           </div>

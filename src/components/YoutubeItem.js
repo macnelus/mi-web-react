@@ -5,6 +5,7 @@ const YouTubeItem = ({ video }) => {
   return (
     <article>
       <iframe
+        title="nosoyunpdf"
         width="424"
         height="238"
         src={`https://www.youtube-nocookie.com/embed/${videoId}`}
@@ -12,7 +13,7 @@ const YouTubeItem = ({ video }) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <div> 
+      <div>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
