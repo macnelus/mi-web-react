@@ -49,6 +49,7 @@ const Contact = () => {
               className="btn"
               id="send"
               target="_blank"
+              rel="noreferrer"
             >
               Send
             </a>
