@@ -1,8 +1,8 @@
 import * as contentful from 'contentful'
 
 const client = contentful.createClient({
-  space: "dcqv2c8zlndc",
-  accessToken: "PszWEzV9-KsxnHn49B29OfdEVsb7RI8UNq16V9Xbi7Q",
+  space: "",
+  accessToken: "",
 });
 
  const fetchAllBlogPosts = () =>
